@@ -1,5 +1,7 @@
 # `json-compressor`
 
+![Travis Build Status](https://secure.travis-ci.org/kitcambridge/json-compressor.png)
+
 `json-compressor` is a simple Node module that removes whitespace and JavaScript-style comments from a JSON string.
 
     $ npm install json-compressor
