@@ -1,0 +1,11 @@
+/* This is a sample JSON file. */
+{
+  "name": "Kit",
+  // Kit's birthday is June 2nd.
+  "age": 19,
+  "hobbies": ["programming", "running"],
+  /* JavaScript-style comments within strings should be preserved. In this case,
+   * the `source` property should parse exactly as displayed below.
+  */
+  "source": "123\\n// Line comment.\\n/* Block comment. */\\n456"
+}
