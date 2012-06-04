@@ -4,13 +4,19 @@
   "description": "Removes whitespace and JavaScript-style comments from a JSON string.",
   "version": "0.0.1",
   "repository": {
+    "type": "git",
     "url": "git://github.com/kitcambridge/json-compressor"
   },
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "tap": "~0.2.5"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
   }
 }
